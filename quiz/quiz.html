@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="quiz.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../foto/favicon.ico"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="menu-container">
+      <!-- burger menu -->
+      <input type="checkbox" aria-label="Toggle menu" />
+      <span></span>
+      <span></span>
+      <span></span>
+
+      <!-- logo -->
+      <a class="navbar-brand" href="#">cyberKid</a>
+
+      <!-- menu items -->
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="..\index.html"> Privatësia </a>
+          </li>
+          <li>
+            <a href="..\index.html"> Bullizmi </a>
+          </li>
+          <li>
+            <a href="..\index.html"> Përmbajtjet e papërshtatshme </a>
+          </li>
+          <li>
+            <a href="..\index.html"> Rrjetet Sociale </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="..\index.html"> Faqja Kryesore </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="start-screen"><button id="start-button">Start</button></div>
+
+    <div id="display-container">
+      <div class="header">
+        <div class="number-of-count">
+          <span class="number-of-question">1 of 3 questions</span> 
+        </div>
+        <div class="timer-div">
+          <img src="https://i.postimg.cc/q7BCXNDy/timer-icon.png" alt="yg" />
+          <span class="time-left">15s</span>
+        </div>
+      </div>
+
+      <div id="container">
+        <!-- questions and options will be displayed here →→→ -->
+      </div>
+      <button id="next-button">Next</button>
+    </div>
+    <div class="score-container hide">
+      <div id="user-score">Demo Score</div>
+      <button id="restart" class="thisButton">Restart</button>
+      <button class="thisButton back-button">
+        <a href="..\index.html" id="back" class="back-button"
+          >Kthehu<i class="fa-solid fa-share-from-square"></i>
+        </a>
+      </button>
+    </div>
+
+    <!--Script-> -->
+
+    <script src="quiz.js"></script>
+  </body>
+</html>

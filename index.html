@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CyberKid</title>
+    <!-- StyleSheet (Bootstrap | JS | CSS)-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/07413c1875.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="foto/favicon.ico" />
+  </head>
+  <body>
+    <!-- Title Container -->
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#">cyberKid</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#personalPrivatësia">
+                  Informacioni personal dhe privatësia</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cyberBullying"
+                  >Bullizmi Kibernetik</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#papërshtatshme">
+                  Përmbajtjet të papërshtatshme</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#socialMedia">Rrjetet Sociale</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+          <div id="Title" class="col-lg-6 col-md-12 col-sm-12">
+            <h1>Siguria e fëmijëve në internet</h1>
+            <a href="quiz/quiz.html" class="btn btn-dark btn-lg quiz-button"
+              >Start Quiz <i class="fa-solid fa-share-from-square"></i>
+            </a>
+          </div>
+
+          <div id="phone" class="image-div col-lg-6 col-md-12 col-sm-12">
+            <img
+              src="foto/children.jpg"
+              alt="iphone-mockup"
+              class="title-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Top Button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!-- Informacioni personal dhe privatësia -->
+    <section id="personalPrivatësia">
+      <h1 class="carousel-title">Informacioni personal dhe privatësia</h1>
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="cyberImage"
+              src="foto/personal1.jpg"
+              alt="dog-profile"
+            />
+            <h2>Viruse dhe vjedhje identiteti</h2>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="cyberImage"
+              src="foto/personal2.jpg"
+              alt="lady-profile"
+            />
+            <h2>
+              Hakera që paraqiten si punonjës të ligjshëm të google mund të ju
+              dërgojnë email duke ju kërkuar passwordin e profilit të fëmijës
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="cyberImage"
+              src="foto/personal3.jpg"
+              alt="lady-profile"
+            />
+            <h2>
+              Mashtrimi nga palë të treta për të ndarë me ta numrin e llogarisë
+              dhe të dhëna të tjera rreth bankës
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="cyberImage"
+              src="foto/personal4.jpeg"
+              alt="lady-profile"
+            />
+            <h2>
+              Shpërndarja e të dhënave personale, si emri i plotë ose adresa ku
+              jetojnë
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="cyberImage"
+              src="foto/personal5.jpg"
+              alt="lady-profile"
+            />
+            <h2>
+              Lojëra që shkarkohen falas, filma, mund të sjellin virus në
+              kompjuter dhe mund të vjedhin të dhënat
+            </h2>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon span1"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon span1"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <p>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target=".multi-collapse"
+          aria-expanded="false"
+          aria-controls="multiCollapseExample1 multiCollapseExample2"
+        >
+          Si të mbrohemi?
+        </button>
+      </p>
+      <div class="row">
+        <div class="col toggle1">
+          <div class="collapse multi-collapse" id="multiCollapseExample8">
+            <div class="card card-body">
+              •Instaloni një program antivirusi të fortë në kompjuterin tuaj të
+              shtëpisë dhe në të gjitha pajisjet e anëtarëve të familjes.
+              <br />
+              • Nëse ju dhe fëmijët tuaj përdorni pajisje të ndryshme në shtëpi,
+              atëherë instaloni një VPN në ruter.
+            </div>
+          </div>
+        </div>
+        <div class="col toggle2">
+          <div class="collapse multi-collapse" id="multiCollapseExample7">
+            <div class="card card-body">
+              • Mos përdorin wireless publik pasi është një mënyrë e thjeshtë
+              për hakerat që të futen në pajisjen e tyre. <br />
+              • Sigurohuni që të mbajnë të gjitha informacionet personale
+              private dhe kurrë të mos publikojnë emrin e plotë, numrin e
+              celularit, adresën ose shkollën
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bullizmi Kibernetik -->
+    <section id="cyberBullying">
+      <h1 class="carousel-title">Bullizmi Kibernetik</h1>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="cyberImage"
+              src="foto/cyberbulling1.jpg"
+              alt="dog-profile"
+            />
+            <h2>
+              E-maile, mesazhe kërcënuese, fyese, tallëse, paragjykuese etj.
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="cyberImage"
+              src="foto/cyberbulling2.jpg"
+              alt="lady-profile"
+            />
+            <h2>Postimet tallëse ose fyese në rrjetet sociale.</h2>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="cyberImage"
+              src="foto/cyberBulling3.jpg"
+              alt="lady-profile"
+            />
+            <h2>
+              Etiketime (pseudonime) fyese nëpërmjet postimeve në rrjete
+              sociale.
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="cyberImage"
+              src="foto/cyberbulling5.jpg"
+              alt="lady-profile"
+            />
+            <h2>
+              Postim i fotografive, videove të personave të tjerë pa miratimin e
+              tyre, me qëllim tallës dhe fyes.
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="cyberImage"
+              src="foto/cyberbulling4.jpg"
+              alt="lady-profile"
+            />
+            <h2>
+              Krijimi i profileve fallse në rrjetet sociale në emër të një
+              individi tjetër me qëllim talljeje apo fyerjeje.
+            </h2>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon span1"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon span1"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <p>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target=".multi-collapse"
+          aria-expanded="false"
+          aria-controls="multiCollapseExample1 multiCollapseExample2"
+        >
+          Si të mbrohemi?
+        </button>
+      </p>
+      <div class="row">
+        <div class="col toggle1">
+          <div class="collapse multi-collapse" id="multiCollapseExample5">
+            <div class="card card-body">
+              • Mos iu përgjigj mesazheve cyberbullying. <br />
+              • Ruani mesazhet në orën dhe datën që i keni marrë si dëshmi në
+              rast raportimi. Ruaj Print Screen-et, e-mailet, tekstet e
+              mesazheve. <br />
+              • Bllokoni aksesin e atyre personave me të cilët nuk dëshironi të
+              komunikoni;
+            </div>
+          </div>
+        </div>
+        <div class="col toggle2">
+          <div class="collapse multi-collapse" id="multiCollapseExample6">
+            <div class="card card-body">
+              • Nëse keni pranuar mesazhe me përmbajtje fyese apo kërcënuese,
+              nuk është faji juaj. Tregojuni menjëherë prindërve apo një të
+              rrituri të besuar. <br />
+              • Bisedoni me një të rritur, familjar, të afërm për ngacmimet që
+              ke pasur. <br />
+              • Mundohuni ta identifikoni personin i cili ju ngacmon
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Përmbajtjet të papërshtatshme -->
+    <section id="papërshtatshme">
+      <h1 class="carousel-title">Përmbajtjet të papërshtatshme</h1>
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="cyberImage" src="foto/content1.jpg" alt="dog-profile" />
+            <h2>
+              Ndikon negativisht te zhvillimi psikologjik dhe mendor i fëmijës
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="cyberImage"
+              src="foto/content2.jpg"
+              alt="lady-profile"
+            />
+            <h2>Provokon sjellje të papërshtatshme seksuale</h2>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="cyberImage"
+              src="foto/content3.jpg"
+              alt="lady-profile"
+            />
+            <h2>Mund të shkaktojë ose nxisë përdhunimin</h2>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="cyberImage"
+              src="foto/content4.jpg"
+              alt="lady-profile"
+            />
+            <h2>Keqedukim për çështjet e seksualitetit</h2>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon span1"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon span1"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <p>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target=".multi-collapse"
+          aria-expanded="false"
+          aria-controls="multiCollapseExample1 multiCollapseExample2"
+        >
+          Si të mbrohemi?
+        </button>
+      </p>
+      <div class="row">
+        <div class="col toggle1">
+          <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="card card-body">
+              • Përpiquni të respektoni kufizimet e moshës. <br />
+              • Kuptoni që jo çdo informacion që mund të gjendet në internet
+              është i besueshëm. <br />
+              • Mos shkarkoni dhe dërgoni foto dhe video me përmbajtje të
+              papërshtatshme;
+            </div>
+          </div>
+        </div>
+        <div class="col toggle2">
+          <div class="collapse multi-collapse" id="multiCollapseExample2">
+            <div class="card card-body">
+              • Kuptoni që materialet që nuk janë të dedikuara për ju nuk duhet
+              të shikohen nga mosha juaj. <br />
+              • Mos jepni të dhëna personale. <br />
+              • Bisedoni me prindërit tuaj për të identifikuar bashkarisht faqet
+              dhe burimet serioze të informacionit;
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rrjetet Sociale -->
+    <section id="socialMedia">
+      <h1 class="carousel-title">Rrjetet Sociale</h1>
+      <div
+        id="carouselExampleControlsNoTouching"
+        class="carousel slide"
+        data-bs-touch="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="cyberImage"
+              src="foto/socialMedia1.jpg"
+              alt="dog-profile"
+            />
+            <h2>
+              Krijohen shumë problemeve si: bullizmi kibernetik, shpërndarja e
+              përmbajtjeve të papërshtatshme dhe bisedat me të huaj
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="cyberImage"
+              src="foto/socialMedia2.jpeg"
+              alt="lady-profile"
+            />
+            <h2>
+              Fëmijët e grupmoshës 8-12 vjeç qëndrojnë në internet për rreth
+              gjashtë orë në ditë
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="cyberImage"
+              src="foto/socialmedia3.jpg"
+              alt="lady-profile"
+            />
+            <h2>
+              Etiketime (pseudonime) fyese nëpërmjet postimeve në rrjete
+              sociale.
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="cyberImage"
+              src="foto/socialMedia4.jpg"
+              alt="lady-profile"
+            />
+            <h2>
+              Media sociale mund të ndikojë në aftësinë e fëmijës për të
+              zhvilluar marrdhenie të shëndetshme interpersonal
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="cyberImage"
+              src="foto/socialMedia5.png"
+              alt="lady-profile"
+            />
+            <h2>
+              Duke lundruar në median sociale fëmijët mund të ndeshen me faqe
+              interneti të pahijshme, të dëmshme që mund të ndikojnë në procesin
+              e tyre të të menduarit
+            </h2>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon span1"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon span1"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <p>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target=".multi-collapse"
+          aria-expanded="false"
+          aria-controls="multiCollapseExample1 multiCollapseExample2"
+        >
+          Si të mbrohemi?
+        </button>
+      </p>
+      <div class="row">
+        <div class="col toggle1">
+          <div class="collapse multi-collapse" id="multiCollapseExample3">
+            <div class="card card-body">
+              • Asnjëhere mos shtoni apo pranoni si miq në rrjetet sociale
+              njerëz që nuk i njihni. <br />
+              • Asnjëhere mos jepni të dhëna personale si adresë dhe numër
+              telefoni. <br />
+              • Mos iu përgjigj asnjë mesazhi apo email kërcënues apo fyes.
+            </div>
+          </div>
+        </div>
+        <div class="col toggle2">
+          <div class="collapse multi-collapse" id="multiCollapseExample4">
+            <div class="card card-body">
+              • Shikoni opsionet e përdorimit që ofron një media sociale dhe
+              aplikoni masat më të forta të sigurisë së llogarisë. <br />
+              • Rrespektoni udhëzimin për kriterin e moshës që vendosin rrjetet
+              sociale. <br />
+              • Ruaj çdo detaj të mesazheve ose email-eve që merr.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Star Rating -->
+    <section id="review">
+      <div class="review-title">
+        <h1>
+          Sa të sigurt mendoni se janë fëmijet ndaj rreziqeve në internet?
+        </h1>
+      </div>
+      <div class="rating">
+        <input type="radio" name="rating" value="5" id="5" /><label for="5"
+          >☆</label
+        >
+        <input type="radio" name="rating" value="4" id="4" /><label for="4"
+          >☆</label
+        >
+        <input type="radio" name="rating" value="3" id="3" /><label for="3"
+          >☆</label
+        >
+        <input type="radio" name="rating" value="2" id="2" /><label for="2"
+          >☆</label
+        >
+        <input type="radio" name="rating" value="1" id="1" /><label for="1"
+          >☆</label
+        >
+      </div>
+
+      <table>
+        <tr>
+          <td><i class="fa-solid fa-star"></i></td>
+          <td>
+            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+          </td>
+          <td>
+            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </td>
+          <td>
+            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+          </td>
+          <td>
+            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </td>
+        </tr>
+        <tr>
+          <td>Shumë të pasigurt</td>
+          <td>Të pasigurt</td>
+          <td>Pak të sigurt</td>
+          <td>Të sigurt</td>
+          <td>Shumë të sigurt</td>
+        </tr>
+      </table>
+    </section>
+
+    <footer id="footer">
+      <i class="icons fa-brands fa-twitter"></i>
+      <i class="icons fa-brands fa-facebook"></i>
+      <i class="icons fa-brands fa-instagram"></i>
+      <i class="icons fa-solid fa-envelope"></i>
+
+      <p>© Copyright 2023 CyberKid</p>
+      <p>© Anais Erion Eva IE302</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
